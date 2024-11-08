@@ -23,16 +23,23 @@ docker run -d --name efilen-webdav -p 8888:8888 xicodocker/efilen-webdav:latest
 
 #### Using Docker Compose
 
-1. Copy and modify environment file:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/xiao-cold/efilen-webdav.git
+cd efilen-webdav
+```
+
+2. Copy and modify environment file:
 
 ```bash
 cp .env.example .env
 ```
 
-2. Start the service:
+3. Start the service:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 2. Connect to WebDAV
