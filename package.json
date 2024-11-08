@@ -1,0 +1,15 @@
+{
+  "name": "efilen-webdav",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Docker-ready WebDAV server for Filen cloud storage",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@filen/webdav": "^0.2.20",
+    "dotenv": "^16.3.1"
+  },
+  "license": "AGPL-3.0"
+}
